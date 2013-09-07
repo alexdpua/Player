@@ -43,6 +43,11 @@ public class MainActivity extends Activity {
 			mp.start();
 		}
 	}
+	@Override
+	public void onBackPressed() {
+		finish();
+		super.onBackPressed();
+	}
 	
 	/*
 	 * ExternalStorage  - sdcard
